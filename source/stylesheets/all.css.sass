@@ -1,0 +1,216 @@
+@charset "utf-8"
+@import "clear"
+@import "fonts"
+
+$dark-text: #3c3c3c
+$link-color: #918f5e
+$dark-blue: #3f414d
+
+*
+  box-sizing: border-box
+
+a
+  color: $link-color
+  font-family: "proxima_nova_rgbold"
+
+img
+  max-width: 100%
+
+h1
+  display: block
+  margin: auto
+  padding: 7% 0 0 0
+
+h2
+  font-family: "proxima_novablack", sans-serif
+  color: $dark-text
+  font-size: 30px
+  margin-bottom: 20px
+  text-align: center
+
+p
+  font-size: 16px
+  font-family: "proxima_nova_rgregular", sans-serif
+  line-height: 1.4
+  color: $dark-text
+
+.container
+  width: 90%
+  max-width: 960px
+  margin: auto
+  position: relative
+  z-index: 1000
+  +clearfix
+
+header
+  width: 100%
+  max-height: 470px
+  overflow-y: hidden
+  position: absolute
+
+.button
+  width: 150px
+  height: 40px
+  border: 2px solid white
+  border-radius: 4px
+  float: right
+  font-family: "proxima_novablack", sans-serif
+  color: white
+  padding: 11px 23px
+  font-size: 15px
+  letter-spacing: 4px
+  position: relative
+  display: block
+  top: 40px
+
+.logo
+  width: 35%
+  margin-bottom: 10%
+
+.feature
+  width: 33.333333333%
+  padding: 0 3%
+  margin-bottom: 6%
+  float: left
+
+  &:first-child
+    padding: 0 3% 0 0
+
+  &:last-child
+    padding: 0 0 0 3%
+
+.boat, .calendar, .ruby
+  height: 78px
+  width: 100px
+  margin: 8px auto
+
+.boat
+  background: url(/images/boat.png) no-repeat center
+  background-size: 43%
+
+.calendar
+  background: url(/images/calendar.png) no-repeat center
+  background-size: 36.5%
+
+.ruby
+  background: url(/images/ruby.png) no-repeat center
+  background-size: 40.25%
+
+.description
+  width: 100%
+  background: $dark-blue
+  padding: 10% 0
+  margin-bottom: 4%
+
+  h2
+    padding: 0 6%
+
+  h2, p
+    color: white
+    margin-bottom: 8%
+
+  .button
+    float: none
+    margin: auto
+    display: block
+    position: static
+
+.sponsors
+  margin: 0 auto 4%
+  width: 584px
+  +clearfix
+
+.neo
+  background: url(/images/neo.png) no-repeat center
+
+.smartfile
+  background: url(/images/smartfile.png) no-repeat center
+
+.zplay
+  background: url(/images/zplay.png) no-repeat center
+
+.webwand
+  background: url(/images/webwand.png) no-repeat center
+
+.neo, .smartfile, .zplay, .webwand
+  width: 146px
+  height: 60px
+  float: left
+  background-size: 80%
+
+footer
+  text-align: center
+  margin-bottom: 6%
+
+
+@media screen and (max-width: 690px)
+
+  .feature
+    float: none
+    width: 100%
+    padding: 0 3%
+    +clearfix
+
+    &:first-child
+      padding: 0 3%
+
+
+    &:last-child
+      padding: 0 3%
+
+@media screen and (max-width: 620px)
+  .sponsors
+    width: 292px
+
+@media screen and (max-width: 590px)
+  h1.logo
+    float: left
+    margin: 1% 0 10% 3%
+
+  .button
+    top: 53px
+    right: 6px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
