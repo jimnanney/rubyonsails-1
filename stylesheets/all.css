@@ -1,0 +1,292 @@
+/* line 1, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 21, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+a {
+  text-decoration: none;
+  color: red; }
+
+/* line 25, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+body {
+  margin: 0;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1; }
+
+/* line 34, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 38, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+ol, ul {
+  list-style: none; }
+
+/* line 41, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+blockquote, q {
+  quotes: none; }
+
+/* line 44, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+/* line 49, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'proxima_novablack';
+  src: url("/fonts/proxima_nova_black-webfont.eot");
+  src: url("/fonts/proxima_nova_black-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/proxima_nova_black-webfont.woff") format("woff"), url("/fonts/proxima_nova_black-webfont.ttf") format("truetype"), url("/fonts/proxima_nova_black-webfont.svg#proxima_novablack") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'proxima_nova_rgbold';
+  src: url("/fonts/proxima_nova_bold-webfont.eot");
+  src: url("/fonts/proxima_nova_bold-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/proxima_nova_bold-webfont.woff") format("woff"), url("/fonts/proxima_nova_bold-webfont.ttf") format("truetype"), url("/fonts/proxima_nova_bold-webfont.svg#proxima_nova_rgbold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'proxima_nova_rgregular';
+  src: url("/fonts/proxima_nova_reg-webfont.eot");
+  src: url("/fonts/proxima_nova_reg-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/proxima_nova_reg-webfont.woff") format("woff"), url("/fonts/proxima_nova_reg-webfont.ttf") format("truetype"), url("/fonts/proxima_nova_reg-webfont.svg#proxima_nova_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 9, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+* {
+  box-sizing: border-box; }
+
+/* line 12, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+a {
+  color: #918f5e;
+  font-family: "proxima_nova_rgbold"; }
+
+/* line 16, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+img {
+  max-width: 100%; }
+
+/* line 19, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+h1 {
+  display: block;
+  margin: auto;
+  padding: 7% 0 0 0; }
+
+/* line 24, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+h2 {
+  font-family: "proxima_novablack", sans-serif;
+  color: #3c3c3c;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+/* line 31, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+p {
+  font-size: 16px;
+  font-family: "proxima_nova_rgregular", sans-serif;
+  line-height: 1.4;
+  color: #3c3c3c; }
+
+/* line 37, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: auto;
+  position: relative;
+  z-index: 1000; }
+  /* line 54, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+  .container {
+    *zoom: 1; }
+  /* line 56, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+  .container:before, .container:after {
+    content: "";
+    display: table; }
+  /* line 60, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+  .container:after {
+    clear: both; }
+
+/* line 45, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+header {
+  width: 100%;
+  max-height: 470px;
+  overflow-y: hidden;
+  position: absolute; }
+
+/* line 51, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.button {
+  width: 150px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 4px;
+  float: right;
+  font-family: "proxima_novablack", sans-serif;
+  color: white;
+  padding: 11px 23px;
+  font-size: 15px;
+  letter-spacing: 4px;
+  position: relative;
+  display: block;
+  top: 40px; }
+
+/* line 66, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.logo {
+  width: 35%;
+  margin-bottom: 10%; }
+
+/* line 70, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.feature {
+  width: 33.33333%;
+  padding: 0 3%;
+  margin-bottom: 6%;
+  float: left; }
+  /* line 76, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  .feature:first-child {
+    padding: 0 3% 0 0; }
+  /* line 79, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  .feature:last-child {
+    padding: 0 0 0 3%; }
+
+/* line 82, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.boat, .calendar, .ruby {
+  height: 78px;
+  width: 100px;
+  margin: 8px auto; }
+
+/* line 87, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.boat {
+  background: url(/images/boat.png) no-repeat center;
+  background-size: 43%; }
+
+/* line 91, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.calendar {
+  background: url(/images/calendar.png) no-repeat center;
+  background-size: 36.5%; }
+
+/* line 95, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.ruby {
+  background: url(/images/ruby.png) no-repeat center;
+  background-size: 40.25%; }
+
+/* line 99, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.description {
+  width: 100%;
+  background: #3f414d;
+  padding: 10% 0;
+  margin-bottom: 4%; }
+  /* line 105, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  .description h2 {
+    padding: 0 6%; }
+  /* line 108, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  .description h2, .description p {
+    color: white;
+    margin-bottom: 8%; }
+  /* line 112, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  .description .button {
+    float: none;
+    margin: auto;
+    display: block;
+    position: static; }
+
+/* line 118, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.sponsors {
+  margin: 0 auto 4%;
+  width: 584px; }
+  /* line 54, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+  .sponsors {
+    *zoom: 1; }
+  /* line 56, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+  .sponsors:before, .sponsors:after {
+    content: "";
+    display: table; }
+  /* line 60, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+  .sponsors:after {
+    clear: both; }
+
+/* line 123, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.neo {
+  background: url(/images/neo.png) no-repeat center; }
+
+/* line 126, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.smartfile {
+  background: url(/images/smartfile.png) no-repeat center; }
+
+/* line 129, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.zplay {
+  background: url(/images/zplay.png) no-repeat center; }
+
+/* line 132, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.webwand {
+  background: url(/images/webwand.png) no-repeat center; }
+
+/* line 135, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.neo, .smartfile, .zplay, .webwand {
+  width: 146px;
+  height: 60px;
+  float: left;
+  background-size: 80%; }
+
+/* line 141, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+footer {
+  text-align: center;
+  margin-bottom: 6%; }
+
+@media screen and (max-width: 690px) {
+  /* line 148, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  .feature {
+    float: none;
+    width: 100%;
+    padding: 0 3%; }
+    /* line 54, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+    .feature {
+      *zoom: 1; }
+    /* line 56, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+    .feature:before, .feature:after {
+      content: "";
+      display: table; }
+    /* line 60, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+    .feature:after {
+      clear: both; }
+    /* line 154, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+    .feature:first-child {
+      padding: 0 3%; }
+    /* line 158, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+    .feature:last-child {
+      padding: 0 3%; } }
+@media screen and (max-width: 620px) {
+  /* line 162, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  .sponsors {
+    width: 292px; } }
+@media screen and (max-width: 590px) {
+  /* line 166, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  h1.logo {
+    float: left;
+    margin: 1% 0 10% 3%; }
+
+  /* line 170, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  .button {
+    top: 53px;
+    right: 6px; } }
