@@ -1,4 +1,4 @@
-/* line 1, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+/* line 1, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/_clear.sass */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,12 +19,12 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-/* line 21, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+/* line 21, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/_clear.sass */
 a {
   text-decoration: none;
   color: red; }
 
-/* line 25, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+/* line 25, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/_clear.sass */
 body {
   margin: 0;
   font-family: "Avenir", Helvetica, Arial, sans-serif;
@@ -32,26 +32,26 @@ body {
   font-size: 14px;
   line-height: 1; }
 
-/* line 34, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+/* line 34, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/_clear.sass */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 38, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+/* line 38, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/_clear.sass */
 ol, ul {
   list-style: none; }
 
-/* line 41, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+/* line 41, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/_clear.sass */
 blockquote, q {
   quotes: none; }
 
-/* line 44, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+/* line 44, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/_clear.sass */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: "";
   content: none; }
 
-/* line 49, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/_clear.sass */
+/* line 49, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/_clear.sass */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
@@ -77,52 +77,52 @@ table {
   font-weight: normal;
   font-style: normal; }
 
-/* line 10, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 10, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 * {
   box-sizing: border-box; }
 
-/* line 13, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 13, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 body {
   -webkit-animation: fade-in 0.5s 1;
   -moz-animation: fade-in 0.5s 1;
   animation: fade-in 0.5s 1; }
 
 @-webkit-keyframes fade-in {
-  /* line 17, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 17, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   0% {
     opacity: 0; } }
 
 @-moz-keyframes fade-in {
-  /* line 17, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 17, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   0% {
     opacity: 0; } }
 
 @-o-keyframes fade-in {
-  /* line 17, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 17, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   0% {
     opacity: 0; } }
 
 @keyframes fade-in {
-  /* line 17, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 17, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   0% {
     opacity: 0; } }
 
-/* line 20, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 20, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 a {
   color: #918f5e;
   font-family: "proxima_nova_rgbold"; }
 
-/* line 24, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 24, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 img {
   max-width: 100%; }
 
-/* line 27, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 27, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 h1 {
   display: block;
   margin: auto;
   padding: 7% 0 0 0; }
 
-/* line 32, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 32, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 h2 {
   font-family: "proxima_novablack", sans-serif;
   color: #3c3c3c;
@@ -130,14 +130,22 @@ h2 {
   margin-bottom: 20px;
   text-align: center; }
 
-/* line 39, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 39, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
+h3 {
+  font-family: "proxima_novablack", sans-serif;
+  color: #3c3c3c;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center; }
+
+/* line 46, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 p {
   font-size: 16px;
   font-family: "proxima_nova_rgregular", sans-serif;
   line-height: 1.4;
   color: #3c3c3c; }
 
-/* line 45, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 52, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .container {
   width: 90%;
   max-width: 960px;
@@ -145,45 +153,46 @@ p {
   position: relative;
   z-index: 1000;
   *zoom: 1; }
-  /* line 18, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/bourbon/addons/_clearfix.scss */
+  /* line 18, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/bourbon/addons/_clearfix.scss */
   .container:before, .container:after {
     content: " ";
     display: table; }
-  /* line 23, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/bourbon/addons/_clearfix.scss */
+  /* line 23, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/bourbon/addons/_clearfix.scss */
   .container:after {
     clear: both; }
 
-/* line 53, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 60, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 header {
   width: 100%;
   max-height: 470px;
   overflow-y: hidden;
   position: absolute; }
 
-/* line 59, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 66, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .button {
   width: 150px;
-  height: 40px;
   border: 2px solid white;
   border-radius: 4px;
   float: right;
   font-family: "proxima_novablack", sans-serif;
   color: white;
-  padding: 11px 23px;
-  font-size: 15px;
-  letter-spacing: 4px;
+  padding: 8px 8px 6px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.2;
+  letter-spacing: px;
   position: relative;
   display: block;
   top: 40px;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s; }
-  /* line 75, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 84, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   .button:hover {
     background: white;
     color: #3c3c3c; }
 
-/* line 79, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 88, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .logo {
   width: 35%;
   margin-bottom: 10%;
@@ -192,151 +201,156 @@ header {
   animation: slide-in 1s 1; }
 
 @-webkit-keyframes slide-in {
-  /* line 85, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 94, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   0% {
     -webkit-transform: translateX(-80px);
     opacity: 0; } }
 
 @-moz-keyframes slide-in {
-  /* line 85, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 94, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   0% {
     -moz-transform: translateX(-80px);
     opacity: 0; } }
 
 @-o-keyframes slide-in {
-  /* line 85, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 94, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   0% {
     -o-transform: translateX(-80px);
     opacity: 0; } }
 
 @keyframes slide-in {
-  /* line 85, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 94, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   0% {
     transform: translateX(-80px);
     opacity: 0; } }
 
-/* line 89, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 98, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .feature {
   width: 33.33333%;
   padding: 0 3%;
   margin-bottom: 6%;
   float: left; }
-  /* line 95, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 104, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   .feature:first-child {
     padding: 0 3% 0 0; }
-  /* line 98, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 107, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   .feature:last-child {
     padding: 0 0 0 3%; }
 
-/* line 101, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 110, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .boat, .calendar, .ruby {
   height: 78px;
   width: 100px;
   margin: 8px auto; }
 
-/* line 106, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 115, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .boat {
   background: url(/images/boat.png) no-repeat center;
   background-size: 43%; }
 
-/* line 110, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 119, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .calendar {
   background: url(/images/calendar.png) no-repeat center;
   background-size: 36.5%; }
 
-/* line 114, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 123, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .ruby {
   background: url(/images/ruby.png) no-repeat center;
   background-size: 40.25%; }
 
-/* line 118, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 127, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .description {
   width: 100%;
   background: #3f414d;
   padding: 10% 0 4% 0;
   margin-bottom: 4%; }
-  /* line 124, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 133, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   .description h2 {
     padding: 0 6%; }
-  /* line 127, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 136, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   .description h2, .description p {
     color: white;
     margin-bottom: 8%; }
-  /* line 131, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 140, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   .description .button {
     float: none;
     margin: auto;
     display: block;
     position: static; }
 
-/* line 137, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 146, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .sponsors {
-  margin: 0 auto 4%;
+  margin: 0 auto 8%;
   width: 146px;
   *zoom: 1; }
-  /* line 18, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/bourbon/addons/_clearfix.scss */
+  /* line 18, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/bourbon/addons/_clearfix.scss */
   .sponsors:before, .sponsors:after {
     content: " ";
     display: table; }
-  /* line 23, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/bourbon/addons/_clearfix.scss */
+  /* line 23, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/bourbon/addons/_clearfix.scss */
   .sponsors:after {
     clear: both; }
+  /* line 151, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
+  .sponsors a {
+    display: block; }
 
-/* line 142, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 154, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .neo {
   background: url(/images/neo.png) no-repeat center; }
 
-/* line 145, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 157, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .smartfile {
   background: url(/images/smartfile.png) no-repeat center; }
 
-/* line 148, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 160, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .zplay {
   background: url(/images/zplay.png) no-repeat center; }
 
-/* line 151, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 163, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .webwand {
   background: url(/images/webwand.png) no-repeat center; }
 
-/* line 154, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 166, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .neo, .smartfile, .zplay, .webwand {
   width: 146px;
   height: 60px;
   float: left;
   background-size: 80%; }
 
-/* line 160, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 172, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 footer {
+  width: 94%;
+  margin: auto;
   text-align: center;
   margin-bottom: 6%; }
 
 @media screen and (max-width: 690px) {
-  /* line 167, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 181, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   .feature {
     float: none;
     width: 100%;
     padding: 0 3%;
     *zoom: 1; }
-    /* line 18, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/bourbon/addons/_clearfix.scss */
+    /* line 18, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/bourbon/addons/_clearfix.scss */
     .feature:before, .feature:after {
       content: " ";
       display: table; }
-    /* line 23, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/bourbon/addons/_clearfix.scss */
+    /* line 23, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/bourbon/addons/_clearfix.scss */
     .feature:after {
       clear: both; }
-    /* line 173, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+    /* line 187, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
     .feature:first-child {
       padding: 0 3%; }
-    /* line 177, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+    /* line 191, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
     .feature:last-child {
       padding: 0 3%; } }
 @media screen and (max-width: 590px) {
-  /* line 185, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 199, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   h1.logo {
     float: left;
     margin: 1% 0 10% 3%; }
 
-  /* line 189, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 203, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   .button {
-    top: 53px;
+    top: 50px;
     right: 6px; } }
