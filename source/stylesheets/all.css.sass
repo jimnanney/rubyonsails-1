@@ -1,6 +1,7 @@
 @charset "utf-8"
-@import "clear"
-@import "fonts"
+@import clear
+@import fonts
+@import bourbon/bourbon
 
 $dark-text: #3c3c3c
 $link-color: #918f5e
@@ -8,6 +9,13 @@ $dark-blue: #3f414d
 
 *
   box-sizing: border-box
+
+body
+  +animation (fade-in .5s 1)
+
++keyframes (fade-in)
+  0%
+    opacity: 0
 
 a
   color: $link-color
@@ -62,10 +70,21 @@ header
   position: relative
   display: block
   top: 40px
+  +transition (all .3s)
+
+  &:hover
+    background: white
+    color: $dark-text
 
 .logo
   width: 35%
   margin-bottom: 10%
+  +animation (slide-in 1s 1)
+
++keyframes (slide-in)
+  0%
+    +transform (translateX(-80px))
+    opacity: 0
 
 .feature
   width: 33.333333333%
