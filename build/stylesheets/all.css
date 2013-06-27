@@ -171,16 +171,17 @@ header {
 /* line 66, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
 .button {
   width: 150px;
+  height: 40px;
+  padding: 11px 26px;
+  font-size: 14px;
   border: 2px solid white;
   border-radius: 4px;
   float: right;
   font-family: "proxima_novablack", sans-serif;
   color: white;
-  padding: 8px 8px 6px;
-  font-size: 12px;
   text-align: center;
   line-height: 1.2;
-  letter-spacing: px;
+  letter-spacing: 4px;
   position: relative;
   display: block;
   top: 40px;
@@ -352,5 +353,5 @@ footer {
 
   /* line 203, /Users/Derek/Projects/rubyonsails-design/source/stylesheets/all.css.sass */
   .button {
-    top: 50px;
+    top: 52px;
     right: 6px; } }
