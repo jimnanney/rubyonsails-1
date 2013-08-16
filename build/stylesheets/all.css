@@ -299,43 +299,64 @@ header {
   .sponsors a {
     display: block; }
 
-/* line 158, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+/* line 157, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
 .sponsor {
   margin-right: 20px; }
-  /* line 160, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 159, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
   .sponsor:last-child {
     margin-right: 0px; }
 
-/* line 163, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
-.neo {
-  background: url(/images/neo.png) no-repeat center;
-  width: 92px;
-  height: 50px; }
+/* line 162, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.pivotal {
+  background: url(/images/pivotal.png) no-repeat center;
+  margin-left: 70px;
+  width: 400px;
+  height: 160px; }
 
 /* line 167, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
-.hashrocket {
-  background: url(/images/hashrocket.png) no-repeat center;
-  width: 148px;
-  height: 81px; }
+.neo {
+  background: url(/images/neo.png) no-repeat center;
+  width: 138px;
+  height: 75px; }
 
 /* line 171, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
-.dockyard {
-  width: 142px;
-  height: 38px;
-  background: url(/images/dockyard.png) no-repeat center; }
+.hashrocket {
+  background: url(/images/hashrocket.png) no-repeat center;
+  width: 190px;
+  height: 114px; }
 
 /* line 175, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
-.github {
-  width: 100px;
-  height: 82px;
-  background: url(/images/Octocat.jpg) no-repeat center; }
+.dockyard {
+  background: url(/images/dockyard.png) no-repeat center;
+  width: 223px;
+  height: 57px; }
 
 /* line 179, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
-.neo, .hashrocket, .dockyard, .github {
-  float: left;
-  background-size: 100%; }
+.engineyard {
+  background: url(/images/engineyard.png) no-repeat center;
+  width: 102px;
+  height: 164px; }
 
 /* line 183, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.bluebox {
+  background: url(/images/bluebox.png) no-repeat center;
+  width: 142px;
+  height: 38px; }
+
+/* line 187, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.github {
+  width: 200px;
+  height: 164px;
+  background: url(/images/Octocat.jpg) no-repeat center;
+  margin-left: 70px; }
+
+/* line 192, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+.neo, .hashrocket, .dockyard, .github, .pivotal, .engineyard, .bluebox {
+  float: left;
+  background-size: 100%;
+  margin-bottom: 20px; }
+
+/* line 197, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
 footer {
   width: 94%;
   margin: auto;
@@ -343,7 +364,7 @@ footer {
   margin-bottom: 6%; }
 
 @media screen and (max-width: 690px) {
-  /* line 192, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 206, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
   .feature {
     float: none;
     width: 100%;
@@ -356,39 +377,39 @@ footer {
     /* line 23, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/bourbon/addons/_clearfix.scss */
     .feature:after {
       clear: both; }
-    /* line 198, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+    /* line 212, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
     .feature:first-child {
       padding: 0 3%; }
-    /* line 202, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+    /* line 216, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
     .feature:last-child {
       padding: 0 3%; } }
 @media screen and (max-width: 470px) {
-  /* line 206, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 220, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
   .sponsors {
     width: 146px; }
 
-  /* line 209, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 223, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
   .sponsor {
     margin-bottom: 40px; }
-    /* line 211, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+    /* line 225, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
     .sponsor:last-child {
       margin-bottom: 0; }
 
-  /* line 214, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 228, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
   .neo {
     width: 145px; }
 
-  /* line 217, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 231, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
   .hashrocket {
     width: 146px;
     height: 80px; } }
 @media screen and (max-width: 590px) {
-  /* line 221, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 235, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
   h1.logo {
     float: left;
     margin: 1% 0 10% 3%; }
 
-  /* line 225, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
+  /* line 239, /Users/jimnanney/code/rails/ros/ros-design/source/stylesheets/all.css.sass */
   .button {
     top: 52px;
     right: 6px; } }
